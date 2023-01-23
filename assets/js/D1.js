@@ -32,10 +32,10 @@ const Usertable = function () {
 let newUser = new Usertable();
 
 const addRow = (par1, par2, par3) => {
-  console.log(name1.value);
-  newUser.name = par1;
-  newUser.surname = par2;
-  newUser.age = par3;
+    newUser.name = par1;
+    newUser.surname = par2;
+    newUser.age = par3;
+    console.log(newUser);
   const newRow2 = document.createElement("tr");
   const tr = document.createElement("tr");
   const td1 = document.createElement("td");
