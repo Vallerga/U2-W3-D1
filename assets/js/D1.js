@@ -24,9 +24,9 @@ let nodeToAttach = document.querySelector("tbody");
 // };
 
 const Usertable = function () {
-  this.name = "";
-  this.surname = "";
-  this.age = "";
+  this.name = nameUser;
+  this.surname = parentUser;
+  this.age = ageUser;
 };
 
 let newUser = new Usertable();
